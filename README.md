@@ -149,6 +149,7 @@ An example tree:
 Inside `config/blog.yml` you set the properties of your blog:
 
 * title: the title of your blog, used inside templates
+* subtitle: the subtitle of your blog
 * description: used for RSS
 * language: used for RSS
 * author: used for RSS

@@ -11,7 +11,10 @@
   </head>
   <body>
     <div class="container">
-      <h3><a href="/"><%= @blog.title %></a> - <%= @blog.description %></h3>
+      <h3><a href="/"><%= @blog.title %></a> - <%= @blog.subtitle %></h3>
+      <% if @blog.description and not @blog.description.empty? %>
+        <h4><%= @blog.description %></h4>
+      <% end %>
 
       <span>
         <%= link_to 'Home', '/' %> -

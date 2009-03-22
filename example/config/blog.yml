@@ -1,6 +1,7 @@
 --- 
 language: en
 title: Blog Title
+subtitle: Blog Subtitle
 repository: root@my-blog-url.com:/var/www/
 url: http://www.my-blog-url.com
 author: The Author

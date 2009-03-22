@@ -12,7 +12,7 @@ module Shinmun
       define_method(name) { store.root.tree(name) }
     end
 
-    %w[ title description language author url base_path categories ].each do |name|
+    %w[ title subtitle description language author url base_path categories ].each do |name|
       define_method(name) { config['blog.yml'][name] }
     end
 
